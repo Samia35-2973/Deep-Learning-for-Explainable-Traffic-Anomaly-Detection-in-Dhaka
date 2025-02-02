@@ -29,16 +29,16 @@ Kaggle is recommended for its GPU support and storage capabilities. The training
    - Original Dataset: Bangladesh Traffic Flow Dataset ([DOI: 10.17632/h8bfgtdp2r.2](https://doi.org/10.17632/h8bfgtdp2r.2))
    - [COCO Formatted Dataset](https://www.kaggle.com/datasets/samiatisha/dhaka-city-traffic-2024/data)
    - Implementation: [`dhaka-vehicle-detection-faster-r-cnn.ipynb`](faster-r-cnn/dhaka-vehicle-detection-faster-r-cnn.ipynb)
-   		- **Model Initialization:** Initialize a Faster R-CNN model with pre-trained weights.
-			- **Output:** The model with the lowest average loss (0.3135 from the 17th epoch) is selected for further congestion detection.
+     - **Model Initialization:** Initialize a Faster R-CNN model with pre-trained weights.
+     - **Output:** The model with the lowest average loss (0.3135 from the 17th epoch) is selected for further congestion detection.
    - Weights: Download from [Kaggle](https://www.kaggle.com/datasets/samiahaquetisha/better-models-faster-rcnn/data) and place them in the Kaggle input.
    - Training Parameters:
-			- **Backbone:** ResNet-50
-			- **Optimizer:** ADAM
-			- **Learning Rate:** 0.0001
-			- **Batch Size:** 4
-			- **Epochs:** 20
-			- **Scheduler:** StepLR (step size=3, gamma=0.1)
+     - **Backbone:** ResNet-50
+     - **Optimizer:** ADAM
+     - **Learning Rate:** 0.0001
+     - **Batch Size:** 4
+     - **Epochs:** 20
+     - **Scheduler:** StepLR (step size=3, gamma=0.1)
 			
 2. **YOLOv9e**:
    - Original Dataset: Bangladesh Traffic Flow Dataset ([DOI: 10.17632/h8bfgtdp2r.2](https://doi.org/10.17632/h8bfgtdp2r.2))
@@ -47,10 +47,10 @@ Kaggle is recommended for its GPU support and storage capabilities. The training
    - Results stored in: [`yolov9e/detect/yolov9e_ppe_css_50_epochs`](yolov9e/detect/yolov9e_ppe_css_50_epochs)
    - Weights: Download from [Google Drive](https://drive.google.com/drive/folders/1kFKvWHMlVikhZLVioI_HUifzeo9QwGAk?usp=drive_link) and place them in [`yolov9e/detect/yolov9e_ppe_css_50_epochs/weights`](yolov9e/detect/yolov9e_ppe_css_50_epochs/weights)
    - Metrics (50 epochs):
-     - Precision: 0.667
-     - Recall: 0.764
-     - mAP50: 0.764
-     - mAP50-95: 0.508
+     - **Precision**: 0.667
+     - **Recall**: 0.764
+     - **mAP50**: 0.764
+     - **mAP50-95**: 0.508
 
 3. **YOLOv10l**:
    - Original Dataset: Dhaka AI Traffic Dataset ([DOI: 10.7910/DVN/POREXF](https://doi.org/10.7910/DVN/POREXF))
@@ -59,10 +59,10 @@ Kaggle is recommended for its GPU support and storage capabilities. The training
    - Results stored in: [`yolov10l/detect`](yolov10l/detect)
    - Weights: Download from [Google Drive](https://drive.google.com/drive/folders/1pz7fTob5Og9fvO0wDZZKb-zWogfy_7ML?usp=drive_link) and place them in [`yolov10l/detect/weights`](yolov10l/detect/weights)
    - Metrics (120 epochs):
-     - Precision: 0.794
-     - Recall: 0.675
-     - mAP50: 0.752
-     - mAP50-95: 0.523
+     - **Precision**: 0.794
+     - **Recall**: 0.675
+     - **mAP50**: 0.752
+     - **mAP50-95**: 0.523
      
 ### Object Classes
 The datasets focus on a congested urban environment with the following object classes:
