@@ -137,20 +137,25 @@ The core implementation of the TCRD framework is in the file: [`final-tcrd-frame
    - Detected: 5 Bikes, 4 Buses, 42 Cars, 14 CNGs, 2 Mini-Trucks
    - Processing Time: 2750.6ms
 
-3. **Blue Bounding Boxes**:
+2. **Blue Bounding Boxes**:
 
    ![Blue Fill Objects](images/blue_fill_objects.png)
 
-5. **Masked Local Regions**:
+3. **Masked Local Regions**:
 
    ![Masked Regions](images/masked_local_regions.png)
    
    - Total Regions: 15
+  
+4. **Traffic Congestion Regions Output**:
+   
+   ![Congestion Regions](/images/congested_regions_output.png)
+   
    - Congestion Levels:
      - Region 2: **Heavy Congestion** with 43 boxes
      - Region 12: **Light Congestion** with 7 boxes
 
-7. **Explainability with Eigen-CAM**:
+5. **Explainability with Eigen-CAM**:
 
    ![Eigen-CAM](images/eigen_cam_results.png)
    
